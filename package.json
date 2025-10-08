@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build && npm run postbuild:ghpages",
+  "predeploy": "npm run build && npm run postbuild:ghpages",
+  "postbuild:ghpages": "powershell -Command \"Copy-Item -Path dist\\index.html -Destination dist\\404.html -Force\"",
     "deploy": "gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
