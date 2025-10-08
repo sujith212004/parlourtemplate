@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="700" viewBox="0 0 300 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8d6bf"/>
+      <stop offset="100%" stop-color="#e3b899"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" x2="1">
+      <stop offset="0%" stop-color="#222"/>
+      <stop offset="100%" stop-color="#444"/>
+    </linearGradient>
+  </defs>
+  <!-- tube body -->
+  <rect x="60" y="120" rx="18" ry="18" width="180" height="420" fill="url(#g1)" stroke="#cfa589" stroke-width="2" />
+  <!-- tube cap -->
+  <rect x="90" y="80" rx="12" ry="12" width="120" height="50" fill="url(#cap)" />
+  <!-- label -->
+  <rect x="100" y="320" width="100" height="90" rx="10" fill="#f6e4db" opacity="0.9" />
+  <text x="150" y="370" font-family="Arial" font-size="18" fill="#6b4a3c" text-anchor="middle">FOUNDATION</text>
+  <!-- subtle shadow -->
+  <ellipse cx="150" cy="560" rx="90" ry="18" fill="#000" opacity="0.12" />
+</svg>
